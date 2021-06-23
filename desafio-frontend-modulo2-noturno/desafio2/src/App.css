@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+*{
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: #171B1E;
+}
+.containerCentro{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 24px;
+    align-items: flex-start;
+}
+.containerCentro > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.movieList{
+    display: grid;
+    grid-template-columns: repeat(5, 168px);
+    gap: 24px;
+}
+.containerFilmes{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    width: 938px;
+    margin-bottom: 34px;
+}
+
+.containerFilmes p{
+    margin-bottom: 16px;
+}
+
+
+
+
+::-webkit-scrollbar{
+    background-color: #171B1E;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#3F3F3F;;
+    border-radius: 2px;
+
+}

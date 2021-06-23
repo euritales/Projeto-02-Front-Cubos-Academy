@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #0F1C26;
+    color: #FDFDFD;
+    padding: 16px 70px;
+}
+.inputNavbar{
+    all: unset;
+    display: flex;
+    align-items: center;
+}
+
+.busca{
+    all: unset;
+    display: flex;
+    width: 858px;
+    padding: 0 13px;
+    background-color: #171B1E;
+    justify-content: space-between;
+}
+.busca input{
+    all: unset;
+    color: #FDFDFD;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 16px 13px;
+    width: 80%;
+}
+.busca:hover{
+    outline: 1px solid #8C8C8C;
+}
+.busca:focus{
+    outline: 1px solid #8C8C8C;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+}
+.usuario img{
+    width: 56px;
+    height: 56px;
+    margin-left: 8px;
+}
